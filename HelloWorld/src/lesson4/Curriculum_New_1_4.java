@@ -22,23 +22,15 @@ public class Curriculum_New_1_4 {
 	    	 
 	    	 
 		     // Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
-	    	byte1 = 123;
-	    		    
-	    	short1 = 12345;
-
-	    	int1 = 123456789;
-
-	    	long1 = 1234567890L;
-
-	    	float1 = 3.14159f;
-
-	    	double1 = 3.141592653589793;
-
-	    	char1 = 'A';
-
-	    	string1 = "Hello World!";
-
-	    	boolean1 = true;
+	    	 byte1 = 0;
+	    	 short1 = 0;
+	    	 int1 = 0;
+	    	 long1 = 0;
+	    	 float1 = 1.0f;
+	    	 double1 = 1.0;
+	    	 char1 = 'a';
+	    	 string1 = "";
+	    	 boolean1 = false;
 
 
 		     // Q3 初期化をしたそれぞれの変数に下記の値を代入してください
@@ -91,9 +83,10 @@ public class Curriculum_New_1_4 {
 	    	// Q5 
 	    	// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
 	    	//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
-	 		String num = "4";
-	 		int num1 = 3;
-	 		System.out.println("ハローJAVA" + (num + num1));
+	    	String num = "20";
+	    	int num1 = 23;
+	    	System.out.println("ハローJAVA" + (Integer.parseInt(num) + num1));
+
 	}
 
 }
