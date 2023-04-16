@@ -10,6 +10,8 @@ public class Curriculum_New_1_4 {
 		     // 	・単精度浮動小数点数型・倍精度浮動小数点数型
 		     //   	・文字型・文字列型
 		     //	 	・ブーリアン型 
+		
+//		変数宣言
 	    	 byte byte1;
 	    	 short short1;
 	    	 int int1;
@@ -22,6 +24,8 @@ public class Curriculum_New_1_4 {
 	    	 
 	    	 
 		     // Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
+	    	 
+//	    	 変数の代入と初期化
 	    	 byte1 = 0;
 	    	 short1 = 0;
 	    	 int1 = 0;
@@ -44,7 +48,8 @@ public class Curriculum_New_1_4 {
 		     // ・文字型                   a
 		     // ・文字列型              	 ハロー
 		     // ・ブーリアン型          	 true
-		    	 
+	    	 
+//	    	変数の代入 
 	    	byte1 = 10;
 		    
 	    	short1 = 100;
@@ -72,6 +77,8 @@ public class Curriculum_New_1_4 {
 		     // 10000000000                小数点以外の数字を全てかける
 		     // 0.105                      10.5割る100をする
 		     // -90                        10引く100をする
+	    	
+//	    	コンソールに出力
 	    	System.out.println (byte1 + short1 + int1 + long1);
 	    	System.out.println (float1 + double1);
 	    	System.out.println (char1 + string1 + boolean1);
@@ -85,6 +92,7 @@ public class Curriculum_New_1_4 {
 	    	//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
 	    	String num = "20";
 	    	int num1 = 23;
+//	    	num変数の値を整数型に変換
 	    	System.out.println("ハローJAVA" + (Integer.parseInt(num) + num1));
 
 	}
