@@ -33,9 +33,9 @@ public class Sample {
         
 //        コンソールに出力
         System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "です");
-        System.out.println("身長は" + height + "です" );
-        System.out.println("体重は" + weight + "です" );
+        System.out.println("年齢は" + age + "歳です");
+        System.out.println("身長は" + height + "cmです" );
+        System.out.println("体重は" + weight + "kgです" );
         System.out.println("好きな食べ物は" + favoriteFood + "です" );
         
 
@@ -65,9 +65,9 @@ public class Sample {
         favoriteFood = "オムライス";
         
         System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "です");
-        System.out.println("身長は" + height + "です" );
-        System.out.println("体重は" + weight + "です" );
+        System.out.println("年齢は" + age + "歳です");
+        System.out.println("身長は" + height + "cmです" );
+        System.out.println("体重は" + weight + "kgです" );
         System.out.println("好きな食べ物は" + favoriteFood + "です" );
 //      BMIを求め、変数名bmi2に代入
         double bmi2 = weight / ((height / 100) * (height / 100));
