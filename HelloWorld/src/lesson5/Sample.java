@@ -46,7 +46,7 @@ public class Sample {
         // Q2を下記に記載
 //        BMIを求め、変数名bmiに代入
         double bmi = weight / ((height / 100) * (height / 100));
-        System.out.println("BMIは"+ bmi + "です");    
+        System.out.println("BMIは"+ String.format("%.1f", bmi) + "です");    
         
         // Q3 Q1で宣言した変数に再代入し、下記の通りコンソールに出力してください
     	// 初めまして鈴木一郎です
@@ -71,7 +71,8 @@ public class Sample {
         System.out.println("好きな食べ物は" + favoriteFood + "です" );
 //      BMIを求め、変数名bmi2に代入
         double bmi2 = weight / ((height / 100) * (height / 100));
-        System.out.println("BMIは"+ bmi2 + "です"); 
+        System.out.println("BMIは"+ String.format("%.1f", bmi2)+ "です"); 
+  
     	// ↓↓コンソール最終結果↓↓
     	
     	//	初めまして山田太郎です
