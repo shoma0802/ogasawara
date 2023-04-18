@@ -27,7 +27,6 @@ public class practice {
 		// TODO 自動生成されたメソッド・スタブ
 		String[] alphabet = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
 
-		// brake文を使用し、a～dまで表示
 		for(String letter : alphabet){
 		  if(letter.equals("e")){
 		    break;
@@ -35,7 +34,6 @@ public class practice {
 		  System.out.println(letter);
 		}
 
-		// cotinue文を使用し、i以外を表示
 		for(String letter : alphabet){
 		  if(letter.equals("i")){
 		    continue;
