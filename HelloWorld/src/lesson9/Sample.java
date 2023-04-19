@@ -9,7 +9,9 @@ public class Sample {
 //		問１）
 //		boolean型変数 rain を宣言し、今日の天気が雨なら「true」雨でないなら「false」を代入して下さい。
 //		もし rain が true ならコンソールに「DVDを見ます。」と false なら「外で遊びます。」と表示して下さい。
-		boolean rain = true; //もし今日が雨の場合は「true」を代入、雨でない場合は「false」を代入
+		
+//		rainの宣言と表示
+		boolean rain = true; 
 		if (rain) { 
 		    System.out.println("DVDを見ます。"); 
 		} else { 
@@ -25,10 +27,13 @@ public class Sample {
 //		もし score が 40点以上、60点以下なら「〇〇さんは□□点です。もう少しでした。」、
 //		もし score が 60点以上、80点以下なら「〇〇さんは□□点です。よくできました。」、
 //		もし score が 80点以上なら「〇〇さんは□□点です。たいへんよくできました。」とコンソールに出力して下さい。
+		
+//		名前の代入と乱数の宣言
         String name = "山田太郎"; 
         Random random = new Random();
         int score = random.nextInt(101); 
 
+//      if文を使い条件の分岐
         System.out.print(name + "さんは" + score + "点です。");
         if (score <= 40) {
             System.out.println("もう少し頑張りましょう。");
@@ -47,16 +52,19 @@ public class Sample {
 //		③もし変数 isTired が 0 であれば「私はとても元気です。」、そうでなければ「私は疲れています。」と表示する。
 //		※④は System.out.println() のカッコ内に条件演算子（三項演算子）を使って、一行で書いてください。
 //		④もし変数 isTired が 0 であれば、変数 study を利用して「カリキュラムを続けます。」と表示する。
+        
+//      isTiredの宣言とstudyの宣言
         int isTired = 0;
         String study = "カリキュラム";
-
+        
+//      if文で分岐
         if (isTired == 0) {
          System.out.println("私はとても元気です。");
         	} else {
          System.out.println("私は疲れています。");
         	}
-
-        System.out.println(isTired == 0 ?  "カリキュラムを続けます。" : "");
+//       三項演算式
+         System.out.println(isTired == 0 ?  "カリキュラムを続けます。" : "");
 
 
 	}
