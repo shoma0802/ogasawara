@@ -15,13 +15,14 @@ package lesson15;
 public class Practice {
 
 	public static void main(String[] args) {
+//		成績の格納
 		int[][] test = {
 		        {64, 73, 69},
 		        {58, 81, 75},
 		        {86, 68, 79},
 		        {72, 55, 80}
 		    };
-
+//		それぞれの生徒の点数の表示
 		for(int i=0; i<test.length; i++){
 		    System.out.printf("生徒%d：国語%d点、数学%d点、英語%d点\n",
 		                      i+1, test[i][0], test[i][1], test[i][2]);
