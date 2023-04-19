@@ -17,7 +17,7 @@ public class Sample {
 
     	// Q1を下記に記載
     	
-//    	変数宣言と代入
+        //変数宣言と代入
         String name;
         name = "山田太郎";
         int age;
@@ -29,9 +29,9 @@ public class Sample {
         String favoriteFood;
         favoriteFood = "寿司";
 
-//        favoriteFood = new String();
+        // favoriteFood = new String();
         
-//        コンソールに出力
+        // コンソールに出力
         System.out.println("初めまして" + name + "です");
         System.out.println("年齢は" + age + "歳です");
         System.out.println("身長は" + height + "cmです" );
@@ -44,7 +44,7 @@ public class Sample {
         // ただし計算は数値を直書きせず、全て変数を使ってすること
 
         // Q2を下記に記載
-//        BMIを求め、変数名bmiに代入
+        //  BMIを求め、変数名bmiに代入
         double bmi = weight / ((height / 100) * (height / 100));
         System.out.println("BMIは"+ String.format("%.1f", bmi) + "です");    
         
@@ -57,7 +57,7 @@ public class Sample {
     	// BMIは22.6です
 
         // Q3を下記に記載
-//    	変数に再代入
+        // 変数に再代入
         name = "鈴木一郎";
         age = 24;
         height = 168.5;
@@ -69,7 +69,7 @@ public class Sample {
         System.out.println("身長は" + height + "cmです" );
         System.out.println("体重は" + weight + "kgです" );
         System.out.println("好きな食べ物は" + favoriteFood + "です" );
-//      BMIを求め、変数名bmi2に代入
+        //BMIを求め、変数名bmi2に代入
         double bmi2 = weight / ((height / 100) * (height / 100));
         System.out.println("BMIは"+ String.format("%.1f", bmi2)+ "です"); 
   
