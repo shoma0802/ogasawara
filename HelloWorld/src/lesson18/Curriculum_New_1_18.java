@@ -27,7 +27,7 @@ public class Curriculum_New_1_18{
     }
 	// Q4：Q2をオーバーロードして引数を小数2つに変更し、引数同士を和算しコンソールに出力してください。
 	
-    //Q4    
+    // Q4    
     // Q2のオーバーロード
     public static void add(double num1, double num2) {
         System.out.println(num1 + num2);
