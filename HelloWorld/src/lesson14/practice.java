@@ -25,16 +25,16 @@ public class practice {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-//		データの格納
+        // データの格納
 		String[] alphabet = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
-//		eまでのアルファベットの表示
+        // eまでのアルファベットの表示
 		for(String letter : alphabet){
 		  if(letter.equals("e")){
 		    break;
 		  }
 		  System.out.println(letter);
 		}
-// 		iをスキップしてi以外のデータの表示
+        // iをスキップしてi以外のデータの表示
 		for(String letter : alphabet){
 		  if(letter.equals("i")){
 		    continue;

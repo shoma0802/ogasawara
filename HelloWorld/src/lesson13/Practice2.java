@@ -15,16 +15,16 @@ package lesson13;
 public class Practice2 {
 
 	public static void main(String[] args) {
-//		データの格納
+        // データの格納
 		int[] a = {1, 2, 3, 4, 5};
 		
-//		参照型配列の作成と表示
+        // 参照型配列の作成と表示
 		Integer[] b = {1, 2, 3};
 		System.out.println(b[2]);
-//		上書きと表示
+        // 上書きと表示
 		a[3] = 10;
 		System.out.println(a[3]);
-//		表示
+		// 表示
 		System.out.println("配列aの要素数は、" + a.length + "です。");
 
 	}
