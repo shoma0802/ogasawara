@@ -18,8 +18,6 @@ public class Sample {
 		    System.out.println("外で遊びます。"); 
 		}
 
-		
-
 //		問２）
 //		String型変数 name に任意の名前を入れて下さい。
 //		int型変数 score に「0~100」までの乱数を代入して下さい。
@@ -44,8 +42,7 @@ public class Sample {
         } else {
             System.out.println("たいへんよくできました。");
         }
-
-				
+			
 //		問３）
 //		①変数 isTired を定義し、0 か 1 を代入する。（どちらを代入しても構わない。）
 //		②変数 study を定義し、文字列 "カリキュラム" を代入する。
@@ -66,7 +63,6 @@ public class Sample {
          // 三項演算式
          System.out.println(isTired == 0 ?  "カリキュラムを続けます。" : "");
 
-
-	}
+	     }
 
 }
