@@ -14,14 +14,13 @@ package lesson13;
 
 public class Practice1 {
 
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+    public static void main(String[] args) {
         // 配列の生成
-		int[] a = {1, 2, 3, 4, 5};
-        // 1〜5の
-		for(int i = 0; i < a.length; i++){
-		  System.out.println(a[i]);
-		}
-	}
+        int[] a = {1, 2, 3, 4, 5};
 
+        // 配列aの各要素を順番に表示する
+        for(int i = 0; i < a.length; i++){
+            System.out.println(a[i]);
+        }
+    }
 }
