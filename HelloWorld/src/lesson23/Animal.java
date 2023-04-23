@@ -15,7 +15,7 @@ public class Animal {
     private double length;
     private double speed;
 
-    // Setter 
+    // セッター
     public void setName(String name) {
         this.name = name;
     }
@@ -28,7 +28,7 @@ public class Animal {
         this.speed = speed;
     }
 
-    // Getter 
+    // ゲッター 
     public String getName() {
         return name;
     }
