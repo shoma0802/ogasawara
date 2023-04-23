@@ -29,8 +29,8 @@ public class Curriculum_New_1_18{
 	
     // Q4    
     // Q2のオーバーロード
-    public static void add(double num1, double num2) {
-        System.out.println(num1 + num2);
+    public static void multiply(double a, double b) {
+        System.out.println(a + b);
     }
 	// Q5：引数に整数を渡すと、1～100までのランダムな数字を引数の回数分格納して
 	// 格納した値を順番にコンソールで出力後、格納した値を返すメソッドを作成してください。
@@ -70,33 +70,32 @@ public class Curriculum_New_1_18{
 	public static void main(String[] args) {
     // 作成したメソッドをここで呼び出してください
 		
-		// Q1のメソッド呼び出し
-		 printHello("JavaSE", 11); 
-		 
-		// Q2のメソッド呼び出し
-	     multiply(2, 5); 
-	     int[] nums = {1, 2, 3};
-	     
-	    // Q3のメソッド呼び出し
-	     printArray(nums); 
-	     
-	     multiply(3, 5);
+		// Q1の呼び出し
+	    printHello("JavaSE 11", 1);
+
+	    // Q2の呼び出し
+	    multiply(2, 3);
+
+	    // Q3の呼び出し
+	    int[] arr = {1, 2, 3};
+	    printArray(arr);
 
 	    // Q4の呼び出し
-	     add(1.2, 3.4);
+	    add(1.5, 2.3);
 
 	    // Q5の呼び出し
-	     int[] nums1 = generateRandomNumbers(5);
-	     for (int num : nums1) {
-	     System.out.println(num);
-	     }
+	    int[] randomNums = generateRandomNumbers(5);
 
 	    // Q6の呼び出し
-	     double average = calculateAverage(nums1);
-	     System.out.println("Average: " + average);
+	    double average = calculateAverage(randomNums);
+	    System.out.println("Average: " + average);
 
 	    // Q7の呼び出し
-	     boolean result = isGreaterThan50(average);
-	     System.out.println("Result: " + result);
+	    boolean isGreaterThan50 = isGreaterThan50(average);
+	    System.out.println(isGreaterThan50);
+	}
+
+	private static void add(double d, double e) {
+		
 	}
 }
