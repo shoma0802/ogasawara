@@ -106,7 +106,7 @@ public class Theme2 {
         System.out.println("");
         System.out.println("さあ冒険に出かけよう！");
     }
-    
+  
     public static void main(String[] args) {
     	// プレイヤーを生成し、ステータスを表示する
         Theme2 player = new Theme2("山田太郎");

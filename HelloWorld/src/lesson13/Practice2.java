@@ -20,9 +20,7 @@ public class Practice2 {
 
         // 参照型配列bを作成し、要素数3で初期化
         Integer[] b = new Integer[3];
-        b[0] = 1;
-        b[1] = 2;
-        b[2] = 3;
+        b[2] = a[2];
 
         // 参照型配列bの3番目の要素を表示
         System.out.println(b[2]);
