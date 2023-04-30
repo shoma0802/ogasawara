@@ -21,22 +21,35 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Lesson22 {
-    //	それぞれのメソッドの定義
-    public static void sayHello() {
-        System.out.println("こんにちは！ここは日本です！");
+    // フィールドの定義
+    private String greeting;
+    private String sushiTaste;
+    private String japaneseFood;
+    private LocalDateTime currentDateTime;
+
+    // コンストラクタ
+    public Lesson22() {
+        this.greeting = "こんにちは！ここは日本です！";
+        this.sushiTaste = "この寿司はうまい";
+        this.japaneseFood = "寿司は和食です";
+        this.currentDateTime = LocalDateTime.now();
     }
 
-    public static void saySushiTastesGood() {
-        System.out.println("この寿司はうまい");
+    // メソッドの定義
+    public void sayHello() {
+        System.out.println(this.greeting);
     }
 
-    public static void japaneseFood() {
-        System.out.println("寿司は和食です");
+    public void saySushiTastesGood() {
+        System.out.println(this.sushiTaste);
     }
 
-    public static void showCurrentDateTime() {
-        LocalDateTime now = LocalDateTime.now();
+    public void japaneseFood() {
+        System.out.println(this.japaneseFood);
+    }
+
+    public void showCurrentDateTime() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-        System.out.println("今の現在日時は" + formatter.format(now) + "です");
+        System.out.println("今の現在日時は" + formatter.format(this.currentDateTime) + "です");
     }
 }

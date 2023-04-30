@@ -35,9 +35,9 @@ public class Sample {
         System.out.print(name + "さんは" + score + "点です。");
         if (score <= 40) {
             System.out.println("もう少し頑張りましょう。");
-        } else if (score <= 60) {
+        } else if ( score >= 40 && score <= 60 ) {
             System.out.println("もう少しでした。");
-        } else if (score <= 80) {
+        } else if ( score >= 60 && score <= 80 ) {
             System.out.println("よくできました。");
         } else {
             System.out.println("たいへんよくできました。");
