@@ -1,4 +1,4 @@
-package lesson22;
+package lesson22Sub;
 /*
  
 	下記がコンソールに出力されるように作成してください

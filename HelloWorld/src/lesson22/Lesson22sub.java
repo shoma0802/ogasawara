@@ -1,6 +1,6 @@
-package lesson22Sub;
+package lesson22;
 
-import lesson22.Lesson22;
+import lesson22Sub.Lesson22;
 
 public class Lesson22sub {
     public static void main(String[] args) {
