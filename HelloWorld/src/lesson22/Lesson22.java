@@ -22,6 +22,7 @@ import lesson22Sub.Lesson22sub;
 
 public class Lesson22 {
   public static void main(String[] args) {
+	// lesson22Subクラスのインスタンスを作成して、各メソッドを呼び出す
 	Lesson22sub sub = new Lesson22sub();
     sub.printHello();
     sub.printLocation();
