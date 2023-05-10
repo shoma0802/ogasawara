@@ -61,7 +61,7 @@ public class Sample {
          System.out.println("私は疲れています。");
         	}
          // 三項演算式
-         System.out.println(isTired == 0 ?  "カリキュラムを続けます。" : "");
+         System.out.println(isTired == 0 ?  study + "を続けます。" : "");
 
 	     }
 
