@@ -27,7 +27,7 @@ public class Lesson22sub {
   // 現在時刻を取得し、指定されたフォーマットで出力するメソッド
   public void printCurrentTime() {
     LocalDateTime now = LocalDateTime.now();
-    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss"); 
     String formattedDateTime = now.format(formatter);
     System.out.println("今の現在日時は" + formattedDateTime + "です");
   }
