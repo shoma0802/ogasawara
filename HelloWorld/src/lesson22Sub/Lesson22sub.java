@@ -5,9 +5,9 @@ import java.time.format.DateTimeFormatter;
 
 public class Lesson22sub {
   // インスタンス変数を定義
-  String hello = "こんにちは！";
-  String location = "ここは日本です！";
-  String sushi = "この寿司はうまい寿司は和食です";
+  String hello = "こんにちは！ここは日本です！";
+  String location = "ここの寿司はうまい";
+  String sushi = "寿司は和食です";
   
   //helloフィールドの値を出力するメソッド
   public void printHello() {
