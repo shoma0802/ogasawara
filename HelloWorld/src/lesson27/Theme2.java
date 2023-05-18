@@ -44,18 +44,24 @@ import java.util.Scanner;
 public class Theme2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // コンソールに文字を入力
         System.out.println("コンソールに文字を入力してください");
+        // 入力を取得
         String input = scanner.nextLine();
         
+        // 入力された文字列を動物ごとに分割して処理
         String[] animals = input.split(",");
         for (String animal : animals) {
+        	// 動物の情報を分割
             String[] info = animal.split(":");
             String name = info[0];
             String length = info[1] + "m";
             String speed = info[2] + "km/h";
             String scientificName = "";
             
+            // 動物の名前に応じて学名を設定
             switch (name) {
+            	// 各動物の学名を設定
                 case "ライオン":
                     scientificName = "パンテラ レオ";
                     break;
@@ -78,6 +84,7 @@ public class Theme2 {
                     break;
             }
             
+            // 動物の情報をコンソールに表示
             System.out.println("動物名：" + name);
             System.out.println("体長：" + length);
             System.out.println("速度：" + speed);
