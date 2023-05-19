@@ -42,6 +42,7 @@ import java.util.Scanner;
 public class Theme2 {
     public static void main(String[] args) {
         Lesson29Sub[] prefectures = {
+        		//都道府県のインスタントの作成
                 new Lesson29Sub("北海道", "札幌市", 83424),
                 new Lesson29Sub("青森県", "青森市", 9646),
                 new Lesson29Sub("岩手県", "盛岡市", 15275),
@@ -59,6 +60,7 @@ public class Theme2 {
         System.out.print("都道府県番号をカンマ区切りで入力してください（例: 8,5,9）：");
         String input = scanner.nextLine();
 
+        // 入力された番号を配列に格納
         String[] inputArray = input.split(",");
         int[] indexArray = new int[inputArray.length];
         for (int i = 0; i < inputArray.length; i++) {
@@ -69,17 +71,22 @@ public class Theme2 {
         int order = scanner.nextInt();
         scanner.close();
 
+        // 番号を昇順にソート
         Arrays.sort(indexArray);
         if (order == 2) {
+        	// 番号を降順に並び替え
             reverseArray(indexArray);
         }
 
+        // 順序に応じて都道府県情報を表示
         for (int index : indexArray) {
         	Lesson29Sub prefecture = prefectures[index];
+        	// 都道府県の情報を表示
             System.out.printf("\n都道府県名：%s\n県庁所在地：%s\n面積：%skm2\n", prefecture.getName(), prefecture.getCapital(), prefecture.getArea());
         }
     }
 
+    // 配列を逆順に並び替えるメソッド
     public static void reverseArray(int[] array) {
         int length = array.length;
         for (int i = 0; i < length / 2; i++) {

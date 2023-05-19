@@ -6,11 +6,12 @@ public class Lesson29Sub {
     private int area;
 
     public Lesson29Sub(String name, String capital, int area) {
+    	//それぞれの情報の設定
         this.name = name;
         this.capital = capital;
         this.area = area;
     }
-
+    //それぞれのデータの取得
     public String getName() {
         return name;
     }
