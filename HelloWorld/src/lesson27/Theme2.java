@@ -39,18 +39,11 @@
   
   */
 package lesson27;
-import java.util.Scanner;
 
 public class Theme2 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // コンソールに文字を入力
-        System.out.println("コンソールに文字を入力してください");
-        // 入力を取得
-        String input = scanner.nextLine();
-        
-        // 入力された文字列を動物ごとに分割して処理
+    public static void processInput(String input) {
         String[] animals = input.split(",");
+        // 入力された文字列を動物ごとに分割して処理
         for (String animal : animals) {
         	// 動物の情報を分割
             String[] info = animal.split(":");
@@ -58,7 +51,6 @@ public class Theme2 {
             String length = info[1] + "m";
             String speed = info[2] + "km/h";
             String scientificName = "";
-            
             // 動物の名前に応じて学名を設定
             switch (name) {
             	// 各動物の学名を設定
@@ -83,7 +75,6 @@ public class Theme2 {
                 default:
                     break;
             }
-            
             // 動物の情報をコンソールに表示
             System.out.println("動物名：" + name);
             System.out.println("体長：" + length);
@@ -91,7 +82,5 @@ public class Theme2 {
             System.out.println("学名：" + scientificName);
             System.out.println();
         }
-        
-        scanner.close();
     }
 }
