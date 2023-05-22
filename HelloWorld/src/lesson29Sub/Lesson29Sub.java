@@ -1,4 +1,4 @@
-package lesson29;
+package lesson29Sub;
 
 public class Lesson29Sub {
     private String name;
