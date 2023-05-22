@@ -39,6 +39,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+import lesson29Sub.Lesson29Sub;
+
 public class Theme2 {
     public static void main(String[] args) {
         Lesson29Sub[] prefectures = {
