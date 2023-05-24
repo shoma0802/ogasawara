@@ -37,4 +37,3 @@ class Person {
         System.out.println("合計" + Person.count + "人です"); 
     }
 }
-

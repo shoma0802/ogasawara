@@ -11,4 +11,3 @@ class Main {
         Person.printCount(); // 問題6
     }
 }
-

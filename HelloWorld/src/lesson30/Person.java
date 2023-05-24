@@ -37,4 +37,3 @@ class Person {
         System.out.println("年は" + this.age + "才です"); 
     }
 }
-

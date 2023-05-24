@@ -8,5 +8,4 @@ class Main {
 	    // 人数の合計を表示
 	    System.out.println("合計" + Person.count + "人です"); 
 	  }
-	}
-
+}
